@@ -31,6 +31,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.numericTextBox1 = new MyEditControls.NumericTextBox();
+            this.letterOnlyTextBox1 = new MyEditControls.LetterOnlyTextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -55,11 +56,19 @@
             this.numericTextBox1.Size = new System.Drawing.Size(173, 20);
             this.numericTextBox1.TabIndex = 2;
             // 
+            // letterOnlyTextBox1
+            // 
+            this.letterOnlyTextBox1.Location = new System.Drawing.Point(13, 142);
+            this.letterOnlyTextBox1.Name = "letterOnlyTextBox1";
+            this.letterOnlyTextBox1.Size = new System.Drawing.Size(173, 20);
+            this.letterOnlyTextBox1.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(595, 335);
+            this.Controls.Add(this.letterOnlyTextBox1);
             this.Controls.Add(this.numericTextBox1);
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.textBox1);
@@ -75,6 +84,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private MyEditControls.NumericTextBox numericTextBox1;
+        private MyEditControls.LetterOnlyTextBox letterOnlyTextBox1;
     }
 }
 
