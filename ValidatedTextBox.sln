@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWindowsFormsApp", "TestWindowsFormsApp\TestWindowsFormsApp.csproj", "{52823B42-E79F-45A9-9D04-640F2EFF4AA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEditControls", "MyEditControls\MyEditControls.csproj", "{156591E8-FE12-4E15-A0A4-72A5057D6EED}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52823B42-E79F-45A9-9D04-640F2EFF4AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52823B42-E79F-45A9-9D04-640F2EFF4AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52823B42-E79F-45A9-9D04-640F2EFF4AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52823B42-E79F-45A9-9D04-640F2EFF4AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156591E8-FE12-4E15-A0A4-72A5057D6EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156591E8-FE12-4E15-A0A4-72A5057D6EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156591E8-FE12-4E15-A0A4-72A5057D6EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156591E8-FE12-4E15-A0A4-72A5057D6EED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
